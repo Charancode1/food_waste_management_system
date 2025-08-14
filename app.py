@@ -3,7 +3,7 @@ import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
 
-DB_PATH = "food_data.db"
+DB_PATH = "food_wastage.db"
 
 # Database connection
 def get_connection():
@@ -122,3 +122,4 @@ elif choice == "Reports & Queries":
     st.pyplot(fig)
 
     conn.close()
+
